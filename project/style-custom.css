@@ -1,0 +1,25 @@
+label.file-in input[type="file"] {
+    position: absolute;
+    top: -1000px;
+  }
+  .file-in {
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 5px;
+    background: #dddddd;
+    display: inline-block;
+  }
+  .file-in:hover {
+    background: #5cbd95;
+  }
+  .file-in:active {
+    background: #9fa1a0;
+  }
+  .file-in:invalid + span {
+    color: #000000;
+  }
+  .file-in:valid + span {
+    color: #ffffff;
+  }
