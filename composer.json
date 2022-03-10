@@ -1,7 +1,0 @@
-{
-    "require": {
-        "php-webdriver/webdriver": "^1.12",
-        "chrisyue/php-m3u8": "^4",
-        "php-ffmpeg/php-ffmpeg": "^1.0"
-    }
-}
